@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import WidgetCss from "./Widget.module.css";
 import ChatImage from "./fai1.png";
+import { IoSend } from "react-icons/io5";
 
 const Widget = () => {
     const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -75,7 +76,7 @@ const Widget = () => {
                             </div>
                         ))}
                     </div>
-
+                <div className={WidgetCss.inputareacontainer}>
                     <div className={WidgetCss.messageInputArea}>
                         <input
                             type="text"
@@ -89,8 +90,14 @@ const Widget = () => {
                             onClick={handleSendMessage}
                             className={WidgetCss.sendButton}
                         >
-                            Send
+                           <IoSend />
                         </button>
+
+                     
+                    </div>
+   <div className={WidgetCss.footer}> 
+                      <h5> Powered by TechFarben</h5>
+                    </div>
                     </div>
                 </div>
             )}
