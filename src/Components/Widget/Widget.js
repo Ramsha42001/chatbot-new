@@ -96,7 +96,7 @@ const Widget = () => {
                      
                     </div>
    <div className={WidgetCss.footer}> 
-                      <h5> Powered by TechFarben</h5>
+                      <h5> Powered by Farben AI</h5>
                     </div>
                     </div>
                 </div>

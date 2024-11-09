@@ -28,7 +28,7 @@
     width: 90%;
     min-height: 70vh;
     height: auto;
-    background-color: #F4F7ED;
+    background-color: #D8D9DA;
     border-radius: 30px;
     padding: 25px 0px;
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
@@ -47,7 +47,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 18px;
-    background-color: #F4F7ED;
+    background-color: #D8D9DA;
     color: black;
     font-weight: 700;
     align-items:start;
@@ -93,8 +93,8 @@
 }
 
 .userMessage {
-    background-color: #CCEABB;
-    color: white;
+    background-color: #C7EEFF;
+    color: black;
     align-self: flex-end;
 }
 
@@ -154,8 +154,8 @@ align-items: center;
     /* margin-left: 8px;
     margin-top: 10px; */
     padding: 8px 12px;
-    background-color: #f1f0f0;
-    color: #3c3737;
+    background-color: #57bbe7;
+    color: white;
     border: none;
     border-radius: 16px;
     cursor: pointer;
