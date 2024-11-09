@@ -22,7 +22,8 @@ const Widget = () => {
 
             try {
                 const messageQuery = encodeURIComponent(newMessage);
-                const response = await axios.get(`https://rapidbot-2327227512.us-central1.run.app/api/chat?message=${messageQuery}`);
+                const botId = "bot1"; 
+                const response = await axios.get(`https://rapidbot-2327227512.us-central1.run.app/api/chat?message=${messageQuery}&botId=${botId}`);
 
                 const botMessage = { sender: "bot", text: response.data.text || "I'm here to assist you!" };
                 setMessages(prevMessages => [...prevMessages, botMessage]);
